@@ -21,6 +21,6 @@ resource "aws_db_instance" "demo" {
   db_name                     = "demo"
   username                    = "demoadmin"
   manage_master_user_password = true
-  storage_encrypted           = false
+  storage_encrypted           = true
   skip_final_snapshot         = true
 }
